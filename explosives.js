@@ -19,12 +19,33 @@ function checkCategory(e) {
 }
 
 function writeToHTML(e) {
+    $('#products_html').html('');
+    let content = '';
     console.log(e.target.value);
     for (let i = 0; i < categories.categories.length; i++) {
         if (e.target.value === categories.categories[i].name) {
-            console.log('yep')
+            for (let j = 0; j < category_types.types.length; j++) {
+                if (categories.categories[i].id === category_types.types[j].category) {
+                    for (let k = 0; k < products.products.length; k++) {
+                        if (category_types.types[j].id === products.products[k].type) {
+                            content += `
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <h3>${products.products[k].name}</h3>
+                                        <h4>${categories.categories[i].name}</h4>
+                                        <h4>${category_types.types[j].name}</h4>
+                                        <p>${products.products[k].description}</p>
+                                    </div>
+                                </div>
+                            </div>`
+                        }
+                    }
+                }
+            }
         }
     }
+    $('#products_html').html(content);
 }
 
 /////////////////////////////////

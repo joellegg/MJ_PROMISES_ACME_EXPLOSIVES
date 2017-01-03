@@ -3,37 +3,37 @@
         {
             "id": 0,
             "category": 0,
-            "name": "amateur",
+            "name": "Amateur",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 1,
             "category": 0,
-            "name": "experienced",
+            "name": "Experienced",
             "description": "Fireworks intended for use by experienced users during events"
         },
         {
             "id": 2,
             "category": 0,
-            "name": "professional",
+            "name": "Professional",
             "description": "Fireworks intended for professional use during large events"
         },
         {
             "id": 3,
             "category": 1,
-            "name": "small",
+            "name": "Small",
             "description": "Explosives intended for exploding army men."
         },
         {
             "id": 4,
             "category": 1,
-            "name": "medium",
+            "name": "Medium",
             "description": "Explosives intended for small-scale demolition. Not for use by amateurs."
         },
         {
             "id": 5,
             "category": 1,
-            "name": "large",
+            "name": "Large",
             "description": "Explosives intended for large-scale demolition such as buildings. For professional use only. Must have all certifications up to date."
         }
     ]
