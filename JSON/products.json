@@ -1,10 +1,148 @@
 {
-    "products": [{
-        "fairy_sparklers": {
-            "id": 0,
-            "type": 0,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+    "products": [
+        {
+            "fairy_sparklers": {
+                "id": 0,
+                "type": 0,
+                "name": "Fairy Sparklers",
+                "description": "Multi-colored sparklers that are safe for any age."
+            }
+        },
+        {
+            "bottle_rockets": {
+                "id": 1,
+                "type": 0,
+                "name": "Bottle Rockets",
+                "description": "Little flying booms that are safe for any age."
+            }
+        },
+        {
+            "screamers": {
+                "id": 2,
+                "type": 0,
+                "name": "Screamers",
+                "description": "These things sound horrible."
+            }
+        },
+        {
+            "fountain_madness": {
+                "id": 3,
+                "type": 1,
+                "name": "Fountain Madness",
+                "description": "Imagine 100 fairy sparklers taped together."
+            }
+        },
+        {
+            "cannon_boom": {
+                "id": 4,
+                "type": 1,
+                "name": "Cannon Boom",
+                "description": "Great single shot fireworks."
+            }
+        },
+        {
+            "big_cracker": {
+                "id": 5,
+                "type": 1,
+                "name": "Big Cracker",
+                "description": "This thing makes a nice bright flower in the sky."
+            }
+        },
+        {
+            "red_dragon": {
+                "id": 6,
+                "type": 2,
+                "name": "Red Dragon",
+                "description": "For professional use only. Created by Gandalf the Grey."
+            }
+        },
+        {
+            "purple_craze": {
+                "id": 7,
+                "type": 2,
+                "name": "Purple Craze",
+                "description": "Hundreds of purple Junebugs in the sky. For professional use only."
+            }
+        },
+        {
+            "grand_finale": {
+                "id": 8,
+                "type": 2,
+                "name": "Grand Finale",
+                "description": "This will wow even Gandalf."
+            }
+        },
+        {
+            "fire_cracker": {
+                "id": 9,
+                "type": 3,
+                "name": "Fire Cracker",
+                "description": "Sid's special weapon to explode action figures."
+            }
+        },
+        {
+            "gun_powder": {
+                "id": 10,
+                "type": 3,
+                "name": "Gun Powder",
+                "description": "Used by Daniel Boon to kill raccoons. "
+            }
+        },
+        {
+            "dihydrogen_oxide": {
+                "id": 11,
+                "type": 3,
+                "name": "Dihydrogen Oxide",
+                "description": "Very little boom here. Safe for any age. Just add CO2 and shake."
+            }
+        },
+        {
+            "pipe_bomb": {
+                "id": 12,
+                "type": 4,
+                "name": "Pipe Bomb",
+                "description": "Can be devastating. For use by hillbilly fishermen."
+            }
+        },
+        {
+            "magnesium_sulfate": {
+                "id": 13,
+                "type": 4,
+                "name": "Magnesium Sulfate",
+                "description": "Not sure what this does. Moderate boom."
+            }
+        },
+        {
+            "manganese_iodide": {
+                "id": 14,
+                "type": 4,
+                "name": "Manganese Iodide",
+                "description": "Moderate boom. Great for removing tree stumps."
+            }
+        },
+        {
+            "super_explosion": {
+                "id": 15,
+                "type": 5,
+                "name": "Super Explosion",
+                "description": "Remove buildings with ease. Professional use only."
+            }
+        },
+        {
+            "mass_extinction": {
+                "id": 16,
+                "type": 5,
+                "name": "Mass Extinction",
+                "description": "Remove all life on earth. God use only."
+            }
+        },
+        {
+            "chernobyl": {
+                "id": 17,
+                "type": 5,
+                "name": "Chernobyl",
+                "description": "Remove part of a country. Great for use by inexperienced professionals."
+            }
         }
-    }]
+    ]
 }
