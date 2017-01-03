@@ -21,7 +21,6 @@ function checkCategory(e) {
 function writeToHTML(e) {
     $('#products_html').html('');
     let content = '';
-    console.log(e.target.value);
     for (let i = 0; i < categories.categories.length; i++) {
         if (e.target.value === categories.categories[i].name) {
             for (let j = 0; j < category_types.types.length; j++) {
@@ -85,22 +84,18 @@ function loadData(e) {
 
     promise1
         .then(function(val){
-            categories = val
-            console.log("promise one resolved, ", categories);
+            categories = val;
             return promise2
         }).then(function(val) {
-            category_types = val
-            console.log("promise two resolved, ", category_types);
+            category_types = val;
             return promise3
         }).then(function(val) {
-            products = val
-            console.log("promise three resolved, ", products);
+            products = val;
             return;
         }).then(function() {
             checkCategory(e)
         });
 }
-
 
 
 ///////////////////////////////////////
